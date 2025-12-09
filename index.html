@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Emanuelly Arouche</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navegação -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Emanuelly Arouche</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Cabeçalho -->
+  <header class="masthead">
+    <div class="container">
+      <img src="https://cdn-icons-png.flaticon.com/512/2922/2922561.png" alt="Emanuelly">
+      <h1>Emanuelly Arouche</h1>
+      <p>Estudante - Campus Itapecuru Mirim</p>
+    </div>
+  </header>
+
+  <!-- Portfólio -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2>Portfólio</h2>
+        <p>Algumas das minhas áreas de estudo</p>
+      </div>
+
+      <div class="row">
+        <!-- Informática Básica -->
+        <div class="col-md-6 col-lg-3">
+          <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#modalBasica">
+            <img src="https://img.freepik.com/vetores-premium/modelo-de-design-de-vetor-de-icone-de-mouse-de-computador-em-fundo-branco_731715-1713.jpg" class="portfolio-img" alt="Informática Básica">
+            <div class="portfolio-hover">
+              <i class="fas fa-plus"></i>
+              <span>Informática Básica</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Informática Avançada -->
+        <div class="col-md-6 col-lg-3">
+          <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#modalAvancada">
+            <img src="https://thumbs.dreamstime.com/b/gabinete-do-computador-desenho-decorativo-de-ilustra%C3%A7%C3%A3o-vetorial-184411531.jpg" class="portfolio-img"
+            alt="Informática Avançada">
+            <div class="portfolio-hover">
+              <i class="fas fa-plus"></i>
+              <span>Informática Avançada</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sistemas Operacionais -->
+        <div class="col-md-6 col-lg-3">
+          <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#modalSistemas">
+            <img src="https://thumbs.dreamstime.com/z/vetor-do-%C3%ADcone-computador-isolado-no-fundo-branco-sinal-133825140.jpg?w=576" class="portfolio-img" alt="Sistemas Operacionais">
+            <div class="portfolio-hover">
+              <i class="fas fa-plus"></i>
+              <span>Sistemas Operacionais</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Programação Básica -->
+        <div class="col-md-6 col-lg-3">
+          <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#modalProgramacao">
+            <img src="https://media.istockphoto.com/id/1130880498/pt/vetorial/wifi-line-icon-on-white-background.jpg?s=170667a&w=0&k=20&c=x_4YEl9x83RN7QmPJQkn1f1haAL0vFgVJTRmdP_Ka2A=" class="portfolio-img" alt="Programação Básica">
+            <div class="portfolio-hover">
+              <i class="fas fa-plus"></i>
+              <span>Programação Básica</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modais -->
+  <div class="modal fade" id="modalBasica" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-success text-white">
+          <h5 class="modal-title">Informática Básica</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Hardware e Software</li>
+            <li>Sistemas Operacionais</li>
+            <li>Word, Excel, PowerPoint</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalAvancada" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title">Informática Avançada</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Desenvolvimento de Software</li>
+            <li>Redes e Segurança</li>
+            <li>Bancos de Dados</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalSistemas" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-warning text-dark">
+          <h5 class="modal-title">Sistemas Operacionais</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Windows, macOS, Linux</li>
+            <li>Android, iOS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalProgramacao" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-danger text-white">
+          <h5 class="modal-title">Programação Básica</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Variáveis e Tipos</li>
+            <li>Estruturas de Controle</li>
+            <li>Funções e Procedimentos</li>
+            <li>Python, Java, JavaScript</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sobre -->
+  <section id="about">
+    <div class="container">
+      <h2>Sobre Mim</h2>
+      <p>Sou <strong>Emanuelly Cristiny Mendes Arouche</strong>, estudante do Campus Itapecuru Mirim e desenvolvedora web em formação. Tenho interesse em tecnologia, design e criação de soluções digitais modernas e funcionais.</p>
+
+      <a href="https://wa.me/5598984707724?text=Ol%C3%A1%2C%20Emanuelly!%20Vim%20pelo%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar." target="_blank">
+        <button class="whatsapp-btn">
+          <i class="fab fa-whatsapp"></i> Fale comigo no WhatsApp
+        </button>
+      </a>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contact">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2>Entre em Contato Comigo</h2>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <input type="text" placeholder="Seu Nome" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" placeholder="Seu E-mail" required>
+            </div>
+            <div class="mb-3">
+              <input type="tel" placeholder="Seu Número" required>
+            </div>
+            <div class="mb-3">
+              <textarea rows="5" placeholder="Sua Mensagem" required></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer text-center">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 mb-4">
+        <h4 class="text-uppercase mb-3">Redes Sociais</h4>
+        <div class="social-icons">
+          <a href="https://github.com/emanuellycristiny" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/emanuellyycma" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://br.linkedin.com/in/emanuelly-cristiny-mendes-arouche-a399a438b" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <p class="lead mb-0">2025 Emanuelly Arouche<br>Itapecuru Mirim, MA</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
